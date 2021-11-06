@@ -1,0 +1,47 @@
+.container {
+	width: 100%;
+	max-width: 600px;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+    padding: 0 20px;
+	border: 2px solid black;
+}
+
+.todo__item{
+    display: flex;
+    align-items: center;
+}
+
+.todo-input {
+    width: 100%;
+    max-width: 576px;
+	padding-left: 20px;
+	
+}
+.todo__list {
+    width: 100%;
+	height: auto;
+	margin: 0;
+    padding: 0;
+	list-style: none;   
+}
+
+.todo__item{
+    padding: 5px 0;
+    background-color: rgb(243, 240, 240);
+}
+
+.todo__item:nth-child(2n){
+    background-color: #fff;
+}
+
+.todo__item:hover{
+    background-color: rgb(224, 215, 215);
+}
+
+.todo__delet{
+  width: 100%;
+  max-width: 100px;
+  margin-left: auto;
+}
